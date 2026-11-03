@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "Xu6YBQUZwFU443X3vmUtj",
+      "type": "text",
+      "x": 432,
+      "y": 145,
+      "width": 393.3997802734375,
+      "height": 1100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1778474176,
+      "version": 3,
+      "versionNonce": 707067712,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1793682586058,
+      "link": null,
+      "locked": false,
+      "text": "                 USER\n                   |\n                   |\n              SCHEDULER\n                   |\n                   v\n          +-------------------+\n          |     MCP HOST      |\n          |                   |\n          | User Interaction  |\n          | Menu Management   |\n          | Conversation Logs |\n          | LLM / Orchestrator |\n          +-------------------+\n                   |\n                   v\n          +-------------------+\n          |    MCP CLIENT     |\n          |                   |\n          | Tool Discovery    |\n          | Tool Invocation   |\n          | Session Handling  |\n          +-------------------+\n                   |\n             MCP Protocol\n                (STDIO)\n                   |\n          +-------------------+\n          |    MCP SERVER     |\n          |                   |\n          | Registered Tools  |\n          | Input Validation  |\n          | Authentication    |\n          +-------------------+\n                   |\n          +--------+---------+\n          |        |         |\n          v        v         v\n       DATABASE   RAG      EXTERNAL\n        LAYER    PIPELINE   SERVICES\n          |        |         |\n          v        v      +--+------+\n      PostgreSQL  Vector  |         |\n                  Database Gmail  Calendar",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "                 USER\n                   |\n                   |\n              SCHEDULER\n                   |\n                   v\n          +-------------------+\n          |     MCP HOST      |\n          |                   |\n          | User Interaction  |\n          | Menu Management   |\n          | Conversation Logs |\n          | LLM / Orchestrator |\n          +-------------------+\n                   |\n                   v\n          +-------------------+\n          |    MCP CLIENT     |\n          |                   |\n          | Tool Discovery    |\n          | Tool Invocation   |\n          | Session Handling  |\n          +-------------------+\n                   |\n             MCP Protocol\n                (STDIO)\n                   |\n          +-------------------+\n          |    MCP SERVER     |\n          |                   |\n          | Registered Tools  |\n          | Input Validation  |\n          | Authentication    |\n          +-------------------+\n                   |\n          +--------+---------+\n          |        |         |\n          v        v         v\n       DATABASE   RAG      EXTERNAL\n        LAYER    PIPELINE   SERVICES\n          |        |         |\n          v        v      +--+------+\n      PostgreSQL  Vector  |         |\n                  Database Gmail  Calendar",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
